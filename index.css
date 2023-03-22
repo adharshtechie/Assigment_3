@@ -1,0 +1,146 @@
+body{
+    margin-top: 0px;
+    background-color: rgb(0, 0, 0)
+    
+}
+.img1{
+    width: 10%;
+    height: 20%;
+}
+.vidtext{
+    position:absolute;
+    bottom: 200px;
+    padding-left: 100px;
+
+}
+
+.bt1{
+    width: 187px;
+     margin-top: 50px; 
+     color: white;
+      height: 72px;
+     border-radius: 50px;
+    background-color: rgb(57, 134, 153); 
+    border: 0px;
+     font-size: 18px;
+}
+.vid1 h1{
+    font-size: 45px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    height: 10%;
+}
+.vid1,h3{
+    font-size: 40px;
+    color: red;
+}
+.t1:hover + .hid1{
+    display: block;
+}
+
+.backimg1{   
+    
+     width: 100%;
+     border: 3px whitesmoke solid;
+     background-color: rgb(32, 45, 78)
+
+}  
+.cus{
+    background-color: rgb(40, 32, 43);
+    margin-top: 15px;
+    border: 3px whitesmoke solid;
+    
+}
+.bg1{
+     margin-top: 15px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1; 
+    border: 3px whitesmoke solid; 
+
+}
+
+.m1{
+    position: absolute;
+    margin-bottom: 30px;
+}
+.m2{
+    position: absolute;
+    margin-bottom: 500px;
+    margin-left: 1000px;
+}
+@media(max-width: 1353px) { 
+    .foot1 h1{
+        font-size: 20px;
+        text-align:left
+
+
+    }
+    .t1{
+        line-height: 1.5;
+    }
+    .foot2 {
+        margin-top: 10px;
+    }
+   
+    .foot3{
+        padding-bottom: 100px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .navbar{
+        background-color: rgb(53, 50, 50);
+        color: black;
+        
+    }
+    .navbar-toggler{
+        
+        border:4px rgb(167, 151, 151) double;
+        color: rgb(131, 34, 75);
+        position: absolute;
+        left: 320px;
+    }
+    .navbar-toggler-icon{
+        color: white;
+    }
+    .v1{
+        height: 70px
+    }
+   
+    
+    .mar1{
+        display: none;
+    }
+    .follow{
+        text-align: left;
+        padding-left: 10px;
+        
+        font-size: 15px;
+    }
+   .follow1{
+       font-size: 15px;
+       padding-top: -20px;
+
+   }
+  
+  .vidtext{
+    bottom:20px;
+    font-size:large;
+    padding-left:20px;
+  }
+  .vidtext h1{
+    font-size: medium;
+} 
+   .vidtext h3{
+    font-size: medium;
+    
+   }
+   .vidtext h4{
+    font-size: medium;
+   }
+   .vidtext button{
+    width: 130px;
+    height: 40px;
+    font-size: small;
+    margin-top: 1px;
+   }
+}
